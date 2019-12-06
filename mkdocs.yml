@@ -1,0 +1,46 @@
+site_name: "BigCommerce Theme Fresh - User Guide"
+nav:
+- Home: index.md
+- Theme Installation: installation.md
+- Quick Start Guide: quickstart.md
+- Global Customization: customization.md
+- Header: customization-header.md
+- Underwear Style Customization: customization-underwear.md
+- Furniture Style Customization: customization-furniture.md
+- Flowers Style Customization: customization-flowers.md
+- Fashion Style Customization: customization-fashion.md
+- Shoes Style Customization: customization-shoes.md
+- Pets Style Customization: customization-pets.md
+- Cuisine, Wine, Bakery Style Customization: customization-wine.md
+- Footer: customization-footer.md
+- Update Guide: update.md
+- FAQs: faqs.md
+- Help & Support: support.md
+- Release Notes: changelog.md
+theme: readthedocs
+use_directory_urls: false
+
+extra_css:
+  - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css
+  - css/style.css
+
+extra_javascript:
+  - https://use.fontawesome.com/540034d990.js
+  - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+  - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
+  - https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/angular-highlightjs/0.7.1/angular-highlightjs.js
+  - https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js
+  - js/main.js
+
+markdown_extensions:
+- toc:
+    permalink: True
+    separator: "-"
+- sane_lists
+- extra
+- fenced_code
+
+google_analytics: ['UA-241859-16', 'tvlgiao.github.io']
