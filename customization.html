@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Global Customization - BigCommerce Theme Fresh - User Guide</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Global Customization";
+    var mkdocs_page_input_path = "customization.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-241859-16', 'tvlgiao.github.io');
+      ga('send', 'pageview');
+  </script>
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="index.html" class="icon icon-home"> BigCommerce Theme Fresh - User Guide</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="index.html">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="installation.html">Theme Installation</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="quickstart.html">Quick Start Guide</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="customization.html">Global Customization</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#home-page">Home Page</a></li>
+    
+
+    <li class="toctree-l2"><a href="#-customizing-sections">--- Customizing Sections</a></li>
+    
+
+    <li class="toctree-l2"><a href="#-main-carousel">--- Main Carousel</a></li>
+    
+
+    <li class="toctree-l2"><a href="#webpage-custom-template">Webpage custom template</a></li>
+    
+
+    <li class="toctree-l2"><a href="#-store-locator">--- Store locator</a></li>
+    
+
+    <li class="toctree-l2"><a href="#custom-sidebar">Custom sidebar</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#-custom-banners-on-the-sidebar">--- Custom banners on the sidebar</a></li>
+        
+            <li><a class="toctree-l3" href="#-new-products-on-sidebar">--- New Products on sidebar</a></li>
+        
+            <li><a class="toctree-l3" href="#-facebook-likes-chat-box-on-sidebar">--- Facebook likes &amp; chat box on sidebar</a></li>
+        
+            <li><a class="toctree-l3" href="#custom-content-placement">Custom content placement</a></li>
+        
+            <li><a class="toctree-l3" href="#add-to-cart-buy-now-button">Add to Cart &amp; Buy Now button</a></li>
+        
+            <li><a class="toctree-l3" href="#product-page-settings">Product page settings</a></li>
+        
+            <li><a class="toctree-l3" href="#infinite-product-loading">Infinite product loading</a></li>
+        
+            <li><a class="toctree-l3" href="#product-card-color-swatches">Product Card &amp; Color Swatches</a></li>
+        
+            <li><a class="toctree-l3" href="#bottom-bar-on-mobile">Bottom bar on mobile</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="customization-header.html">Header</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="customization-underwear.html">Underwear Style Customization</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="customization-furniture.html">Furniture Style Customization</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="customization-flowers.html">Flowers Style Customization</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="customization-fashion.html">Fashion Style Customization</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="customization-shoes.html">Shoes Style Customization</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="customization-pets.html">Pets Style Customization</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="customization-wine.html">Cuisine, Wine, Bakery Style Customization</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="customization-footer.html">Footer</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="update.html">Update Guide</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="faqs.html">FAQs</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="support.html">Help & Support</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="changelog.html">Release Notes</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">BigCommerce Theme Fresh - User Guide</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Global Customization</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="home-page">Home Page<a class="headerlink" href="#home-page" title="Permanent link">&para;</a></h2>
+<h2 id="-customizing-sections">--- Customizing Sections<a class="headerlink" href="#-customizing-sections" title="Permanent link">&para;</a></h2>
+<p>You can customize the content display on Home Page, rearrange content blocks, show or hide them from <strong>Theme Editor</strong> &gt; <strong>Home Page</strong> &gt; <strong>Sections</strong>.</p>
+<p>Check out this video for quick start:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CvSspnJlfTo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="-main-carousel">--- Main Carousel<a class="headerlink" href="#-main-carousel" title="Permanent link">&para;</a></h2>
+<p><img alt="Main carousel" src="img/main-carousel-slide.png" /></p>
+<p>Main carousel displays on the home page can be input in <strong>Storefront</strong> &gt; <strong>Home Page Carousel</strong>.</p>
+<p>You can configure carousel settings in <strong>Theme Editor</strong> &gt; <strong>Home Page</strong> &gt; <strong>Carousel</strong> section. Here you can turn on/off this carousel, configure colors, content position and so on.</p>
+<p>Our recommended image size is <strong>1920x770px</strong>.</p>
+<p>Config style
+The theme supports change style text, colors...</p>
+<p><img alt="Main carousel" src="img/main-carousel-style.png" /></p>
+<p>Change position of text content
+The theme supports showing slideshow content like heading, text, button on <strong>left</strong>, <strong>right</strong> or <strong>center</strong> of the the image. To configure this option, open Theme Editor, Look into section Carousel, click to expand:</p>
+<p><img alt="Main carousel" src="img/main-carousel-text-position.png" /></p>
+<p>Colors Customization
+To customize color of the slideshow's elements, look into section Carousel in the Theme Editor:</p>
+<p>Choose position of each slide you want to change.</p>
+<p><img alt="Main carousel" src="img/main-carousel.png" /></p>
+<p>Hide the slideshow
+To hide the slideshow on homepage, uncheck on the checkbox Show Carousel in section Carousel of the Theme Editor.</p>
+<p><img alt="Main carousel" src="img/main-carousel.png" /></p>
+<h2 id="webpage-custom-template">Webpage custom template<a class="headerlink" href="#webpage-custom-template" title="Permanent link">&para;</a></h2>
+<h2 id="-store-locator">--- Store locator<a class="headerlink" href="#-store-locator" title="Permanent link">&para;</a></h2>
+<p><img alt="Store locator" src="img/sections/store-locator.png" /></p>
+<p>To edit content and images of banners, Open the link below on your web browser: <a href="https://bc-feellio-builder.papathemes.com/">https://bc-feellio-builder.papathemes.com/</a></p>
+<p>Chooes the tab <strong>Store locator</strong> and Enter all required info on the form.</p>
+<ul>
+<li>Create a new Webpage in <strong>Storefront</strong> &gt; <strong>Web Pages</strong> &gt; click <strong>Create a Web Pages</strong> button.</li>
+<li>Click button <strong>HTML</strong> in <strong>Web Pages Content</strong> editor to show <strong>HTML Source Editor</strong>.</li>
+<li>Copy and paste the code above to <strong>HTML Source Editor</strong>. Then click <strong>Update</strong> button:</li>
+</ul>
+<p><img alt="banner content html source editor" src="img/banner-content-html-source-banner-code.jpg" /></p>
+<p><img alt="banner content html source editor" src="img/banner-content-html-source-editor.jpg" /></p>
+<p>Set Show on <strong>Page = Home Page</strong> and <strong>Location = Top of Page</strong>:</p>
+<p><img alt="config banner show on home" src="img/config-banner-show-on-home.jpg" /></p>
+<h1 id="custom-sidebar">Custom sidebar<a class="headerlink" href="#custom-sidebar" title="Permanent link">&para;</a></h1>
+<h2 id="-custom-banners-on-the-sidebar">--- Custom banners on the sidebar<a class="headerlink" href="#-custom-banners-on-the-sidebar" title="Permanent link">&para;</a></h2>
+<p>Theme support custom banners display on the sidebar for category pages and brand pages.</p>
+<p>To enable these banners, open <strong>Theme Editor</strong> &gt; <strong>Sidebar</strong>, tick on these options:</p>
+<ul>
+<li><strong>Show banner #1 on category pages</strong></li>
+<li><strong>Show banner #2 on category pages</strong></li>
+<li><strong>Show banner #1 on brand pages</strong></li>
+<li><strong>Show banner #2 on brand pages</strong></li>
+</ul>
+<p>Create a new banner in <strong>Marketing</strong> &gt; <strong>Banners</strong>:</p>
+<h3 id="banner-1-on-category-pages">Banner 1 on category pages<a class="headerlink" href="#banner-1-on-category-pages" title="Permanent link">&para;</a></h3>
+<p><img alt="Sidebar banner1" src="img/sidebar-banner1.jpg" /></p>
+<ul>
+<li><strong>Banner Name</strong>: <code>Sidebar banner on category pages (chiara-sidebar-category-banner1)</code></li>
+<li><strong>Banner Content</strong>: Click on the HTML to edit HTML source.</li>
+</ul>
+<pre><code class="html">&lt;p data-remote-banner-position=&quot;chiara-sidebar-category-banner1&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;https://placehold.it/302x302&quot; alt=&quot;302x302&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</code></pre>
+
+<p>Or use button below to generate HTML code with your custom content:</p>
+<!-- Button trigger modal -->
+
+<p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_sidebar_category_banner1_modal">
+  Launch Banner Code Generator
+</button></p>
+<ul>
+<li><strong>Show on Page</strong>: <code>Search Results Page</code></li>
+<li><strong>Location</strong>: <code>Top of Page</code></li>
+</ul>
+<p>Our recommended image size is <strong>302x302px</strong>.</p>
+<h3 id="banner-2-on-category-pages">Banner 2 on category pages<a class="headerlink" href="#banner-2-on-category-pages" title="Permanent link">&para;</a></h3>
+<p><img alt="Sidebar banner2" src="img/sidebar-banner2.jpg" /></p>
+<ul>
+<li><strong>Banner Name</strong>: <code>Sidebar banner on category pages (chiara-sidebar-category-banner2)</code></li>
+<li><strong>Banner Content</strong>: Click on the HTML to edit HTML source.</li>
+</ul>
+<pre><code class="html">&lt;p data-remote-banner-position=&quot;chiara-sidebar-category-banner2&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;https://placehold.it/302x500&quot; alt=&quot;302x500&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</code></pre>
+
+<p>Or use button below to generate HTML code with your custom content:</p>
+<!-- Button trigger modal -->
+
+<p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_sidebar_category_banner2_modal">
+  Launch Banner Code Generator
+</button></p>
+<ul>
+<li><strong>Show on Page</strong>: <code>Search Results Page</code></li>
+<li><strong>Location</strong>: <code>Top of Page</code></li>
+</ul>
+<p>Our recommended image size is <strong>302x500px</strong>.</p>
+<h3 id="banner-1-on-brand-pages">Banner 1 on brand pages<a class="headerlink" href="#banner-1-on-brand-pages" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Banner Name</strong>: <code>Sidebar banner on brand pages (chiara-sidebar-brand-banner1)</code></li>
+<li><strong>Banner Content</strong>: Click on the HTML to edit HTML source.</li>
+</ul>
+<pre><code class="html">&lt;p data-remote-banner-position=&quot;chiara-sidebar-brand-banner1&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;https://placehold.it/302x302&quot; alt=&quot;302x302&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</code></pre>
+
+<p>Or use button below to generate HTML code with your custom content:</p>
+<!-- Button trigger modal -->
+
+<p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_sidebar_brand_banner1_modal">
+  Launch Banner Code Generator
+</button></p>
+<ul>
+<li><strong>Show on Page</strong>: <code>Search Results Page</code></li>
+<li><strong>Location</strong>: <code>Top of Page</code></li>
+</ul>
+<h3 id="banner-2-on-brand-pages">Banner 2 on brand pages<a class="headerlink" href="#banner-2-on-brand-pages" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Banner Name</strong>: <code>Sidebar banner on brand pages (chiara-sidebar-brand-banner2)</code></li>
+<li><strong>Banner Content</strong>: Click on the HTML to edit HTML source.</li>
+</ul>
+<pre><code class="html">&lt;p data-remote-banner-position=&quot;chiara-sidebar-brand-banner2&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;https://placehold.it/302x500&quot; alt=&quot;302x500&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</code></pre>
+
+<p>Or use button below to generate HTML code with your custom content:</p>
+<!-- Button trigger modal -->
+
+<p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_sidebar_brand_banner2_modal">
+  Launch Banner Code Generator
+</button></p>
+<ul>
+<li><strong>Show on Page</strong>: <code>Search Results Page</code></li>
+<li><strong>Location</strong>: <code>Top of Page</code></li>
+</ul>
+<h2 id="-new-products-on-sidebar">--- New Products on sidebar<a class="headerlink" href="#-new-products-on-sidebar" title="Permanent link">&para;</a></h2>
+<p><img alt="Sidebar new products" src="img/sidebar-new-products.png" /></p>
+<p>Configure in <strong>Theme Editor</strong> &gt; <strong>Sidebar</strong>:</p>
+<ul>
+<li><strong>New products</strong>: number of products to display.</li>
+</ul>
+<h2 id="-facebook-likes-chat-box-on-sidebar">--- Facebook likes &amp; chat box on sidebar<a class="headerlink" href="#-facebook-likes-chat-box-on-sidebar" title="Permanent link">&para;</a></h2>
+<p><img alt="sidebar facebook" src="img/sidebar-facebook.png" /></p>
+<p>Configure in <strong>Theme Editor</strong> &gt; <strong>Sidebar</strong>, input your facebook page name in <strong>Facebook page</strong> text box. If your facebook page URL is <code>https://facebook.com/papathemes</code>, input only <code>papathemes</code>. Make sure your Facebook page is public for anyone in order to display on your store.</p>
+<h2 id="custom-content-placement">Custom content placement<a class="headerlink" href="#custom-content-placement" title="Permanent link">&para;</a></h2>
+<p><img alt="product page banner placement" src="img/product-banner-placement.jpg" /></p>
+<h3 id="display-custom-content-on-all-product-pages-under-product-ratings">Display custom content on all product pages under product ratings:<a class="headerlink" href="#display-custom-content-on-all-product-pages-under-product-ratings" title="Permanent link">&para;</a></h3>
+<p>Create a new banner in <strong>Marketing</strong> &gt; <strong>Banners</strong>:</p>
+<p>-- <strong>Banner Content</strong> click HTML button to input HTML code:</p>
+<pre><code class="html">&lt;div data-remote-banner-position=&quot;chiara-productpage-banner1&quot;&gt;
+  ADD YOUR CUSTOM CONTENT HERE...
+&lt;/div&gt;
+</code></pre>
+
+<ul>
+<li><strong>Show on Page</strong>: <code>Search Results Page</code></li>
+<li><strong>Location</strong>: <code>Top of Page</code></li>
+</ul>
+<h3 id="display-custom-content-on-a-specific-product-page-under-product-ratings">Display custom content on a specific product page under product ratings:<a class="headerlink" href="#display-custom-content-on-a-specific-product-page-under-product-ratings" title="Permanent link">&para;</a></h3>
+<p>Edit a product, in <strong>Description</strong> field, click HTML button to input HTML code:</p>
+<pre><code class="html">&lt;div data-local-banner-position=&quot;chiara-productpage-banner2&quot;&gt;
+  ADD YOUR CUSTOM CONTENT HERE...
+&lt;/div&gt;
+</code></pre>
+
+<h3 id="display-custom-content-on-all-product-pages-under-add-to-cart-button">Display custom content on all product pages under add to cart button:<a class="headerlink" href="#display-custom-content-on-all-product-pages-under-add-to-cart-button" title="Permanent link">&para;</a></h3>
+<p>Create a new banner in <strong>Marketing</strong> &gt; <strong>Banners</strong>:</p>
+<p>-- <strong>Banner Content</strong> click HTML button to input HTML code:</p>
+<pre><code class="html">&lt;div data-remote-banner-position=&quot;chiara-productpage-banner3&quot;&gt;
+  ADD YOUR CUSTOM CONTENT HERE...
+&lt;/div&gt;
+</code></pre>
+
+<ul>
+<li><strong>Show on Page</strong>: <code>Search Results Page</code></li>
+<li><strong>Location</strong>: <code>Top of Page</code></li>
+</ul>
+<h3 id="display-custom-content-on-a-specific-page-under-add-to-cart-button">Display custom content on a specific page under add to cart button:<a class="headerlink" href="#display-custom-content-on-a-specific-page-under-add-to-cart-button" title="Permanent link">&para;</a></h3>
+<p>Edit a product, in <strong>Description</strong> field, click HTML button to input HTML code:</p>
+<pre><code class="html">&lt;div data-local-banner-position=&quot;chiara-productpage-banner4&quot;&gt;
+  ADD YOUR CUSTOM CONTENT HERE...
+&lt;/div&gt;
+</code></pre>
+
+<h2 id="add-to-cart-buy-now-button">Add to Cart &amp; Buy Now button<a class="headerlink" href="#add-to-cart-buy-now-button" title="Permanent link">&para;</a></h2>
+<p>Theme allows to display <strong>Add to Cart</strong> or <strong>Buy Now</strong> button or both. Configuring this option in <strong>Theme Editor</strong> &gt; <strong>Storewide</strong> &gt; <strong>Purchase Options</strong> &gt; <strong>Show Add to Cart &amp; Buy Now</strong> as the screenshot below:</p>
+<p><img alt="Configure Add to Cart &amp; Buy Now button" src="img/config-add-to-cart-buy-now.png" /></p>
+<h2 id="product-page-settings">Product page settings<a class="headerlink" href="#product-page-settings" title="Permanent link">&para;</a></h2>
+<p>Configure settings for product pages in <strong>Theme Editor</strong> &gt; <strong>Products</strong>.</p>
+<h2 id="infinite-product-loading">Infinite product loading<a class="headerlink" href="#infinite-product-loading" title="Permanent link">&para;</a></h2>
+<p>Theme support infinite product loading or infinite scroll on category pages, brand pages and search results pages. It is automatically enabled by default. You can configure this option in <strong>Theme Editor</strong> &gt; <strong>Products</strong> &gt; <strong>Infinite Scroll</strong>:</p>
+<ul>
+<li><strong>Category pages</strong></li>
+<li><strong>Brands pages</strong></li>
+<li><strong>Brand pages</strong></li>
+<li><strong>Search pages</strong></li>
+</ul>
+<h2 id="product-card-color-swatches">Product Card &amp; Color Swatches<a class="headerlink" href="#product-card-color-swatches" title="Permanent link">&para;</a></h2>
+<p><img alt="product card" src="img/product-card.png" /></p>
+<p>Configure how products display on listing in <strong>Theme Editor</strong> &gt; <strong>Products</strong> &gt; <strong>Product cards</strong>:</p>
+<ul>
+<li><strong>Product title color &amp; hover color</strong>.</li>
+<li><strong>Button text color &amp; background color</strong>.</li>
+<li><strong>Show brand</strong></li>
+<li><strong>Show color swatches</strong>: To display color swatches for product options with type "Swatches".</li>
+</ul>
+<h2 id="bottom-bar-on-mobile">Bottom bar on mobile<a class="headerlink" href="#bottom-bar-on-mobile" title="Permanent link">&para;</a></h2>
+<p><img alt="mobile bottom bar" src="img/mobile-bottom-bar.png" /></p>
+<p>Configure this bottom bar in <strong>Theme Editor</strong> &gt; <strong>Footer</strong> &gt; <strong>Bottom bar on mobile</strong>:</p>
+<ul>
+<li><strong>Background color</strong></li>
+<li><strong>Text color</strong></li>
+<li><strong>Active color</strong></li>
+<li><strong>Icon size</strong></li>
+<li><strong>Font size</strong></li>
+<li><strong>Show Shop by Brands in Store panel</strong>: Display "Show by Brands" link in the menu panel when lick on the Store icon.</li>
+</ul>
+<h3 id="contact-info">Contact info<a class="headerlink" href="#contact-info" title="Permanent link">&para;</a></h3>
+<p><img alt="mobile contact info" src="img/mobile-contact-info.png" /></p>
+<p>Configure contact info to display when click the Contact icon in <strong>Theme Editor</strong> &gt; <strong>Storewide</strong> &gt; <strong>Contact info</strong>:</p>
+<ul>
+<li><strong>Email</strong></li>
+<li><strong>Phone number</strong></li>
+<li><strong>Call text</strong></li>
+<li><strong>Contact page URL</strong></li>
+<li><strong>Contact link text</strong></li>
+</ul>
+<p><img alt="mobile contact info" src="img/mobile-contact-info-edit.png" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="customization-header.html" class="btn btn-neutral float-right" title="Header">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="quickstart.html" class="btn btn-neutral" title="Quick Start Guide"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="quickstart.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="customization-header.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme.js" defer></script>
+      <script src="https://use.fontawesome.com/540034d990.js" defer></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-highlightjs/0.7.1/angular-highlightjs.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js" defer></script>
+      <script src="js/main.js" defer></script>
+      <script src="search/main.js" defer></script>
+
+</body>
+</html>
