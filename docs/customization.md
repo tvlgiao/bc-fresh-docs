@@ -1,16 +1,4 @@
-## Home Page
-
-## --- Customizing Sections
-
-You can customize the content display on Home Page, rearrange content blocks, show or hide them from **Theme Editor** > **Home Page** > **Sections**.
-
-Check out this video for quick start:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CvSspnJlfTo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-## --- Main Carousel
+## Main Carousel
 
 ![Main carousel](img/main-carousel-slide.png)
 
@@ -42,31 +30,6 @@ To hide the slideshow on homepage, uncheck on the checkbox Show Carousel in sect
 
 ![Main carousel](img/main-carousel.png)
 
-
-
-## Webpage custom template
-
-## --- Store locator
-![Store locator](img/sections/store-locator.png)
-
-To edit content and images of banners, Open the link below on your web browser: [https://bc-feellio-builder.papathemes.com/](https://bc-feellio-builder.papathemes.com/)
-
-Chooes the tab __Store locator__ and Enter all required info on the form.
-
-- Create a new Webpage in __Storefront__ > __Web Pages__ > click __Create a Web Pages__ button.
-- Click button __HTML__ in __Web Pages Content__ editor to show __HTML Source Editor__.
-- Copy and paste the code above to __HTML Source Editor__. Then click __Update__ button:
-
-![banner content html source editor](img/banner-content-html-source-banner-code.jpg)
-
-![banner content html source editor](img/banner-content-html-source-editor.jpg)
-
-Set Show on __Page = Home Page__ and __Location = Top of Page__:
-
-![config banner show on home](img/config-banner-show-on-home.jpg)
-
-
-
 # Custom sidebar
 
 ## --- Custom banners on the sidebar
@@ -92,12 +55,6 @@ Create a new banner in **Marketing** > **Banners**:
 ```html
 <p data-remote-banner-position="chiara-sidebar-category-banner1"><a href="#"><img src="https://placehold.it/302x302" alt="302x302" /></a></p>
 ```
-Or use button below to generate HTML code with your custom content:
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_sidebar_category_banner1_modal">
-  Launch Banner Code Generator
-</button>
 
 * **Show on Page**: `Search Results Page`
 * **Location**: `Top of Page`
@@ -115,12 +72,6 @@ Our recommended image size is **302x302px**.
 ```html
 <p data-remote-banner-position="chiara-sidebar-category-banner2"><a href="#"><img src="https://placehold.it/302x500" alt="302x500" /></a></p>
 ```
-Or use button below to generate HTML code with your custom content:
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_sidebar_category_banner2_modal">
-  Launch Banner Code Generator
-</button>
 
 * **Show on Page**: `Search Results Page`
 * **Location**: `Top of Page`
@@ -136,12 +87,6 @@ Our recommended image size is **302x500px**.
 ```html
 <p data-remote-banner-position="chiara-sidebar-brand-banner1"><a href="#"><img src="https://placehold.it/302x302" alt="302x302" /></a></p>
 ```
-Or use button below to generate HTML code with your custom content:
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_sidebar_brand_banner1_modal">
-  Launch Banner Code Generator
-</button>
 
 * **Show on Page**: `Search Results Page`
 * **Location**: `Top of Page`
@@ -155,12 +100,6 @@ Or use button below to generate HTML code with your custom content:
 ```html
 <p data-remote-banner-position="chiara-sidebar-brand-banner2"><a href="#"><img src="https://placehold.it/302x500" alt="302x500" /></a></p>
 ```
-Or use button below to generate HTML code with your custom content:
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_sidebar_brand_banner2_modal">
-  Launch Banner Code Generator
-</button>
 
 * **Show on Page**: `Search Results Page`
 * **Location**: `Top of Page`

@@ -65,7 +65,7 @@ To activate a theme style, open Theme Editor, find __Styles__ section, click on 
 - **Option 1:** Edit file `assets/scss/fresh-custom.scss`
 - **Option 2:** Add custom CSS  in `<style>...</style>` into **Storefront** > **Footer Scripts**.
 
-![Edit theme files](img/edit-custom-css.jpg)
+![Edit theme files](img/edit-custom-css.png)
 
 ### Add your own Javascript:
 

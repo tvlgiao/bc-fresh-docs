@@ -8,7 +8,7 @@
 
 When a new theme appears, click on the button __Apply Theme__ as showing below:
 
-![Apply Theme](img/apply-theme.jpg)
+![Apply Theme](img/apply-theme.png)
 
 Then choose a style you want to use.
 

@@ -4,15 +4,7 @@ nav:
 - Theme Installation: installation.md
 - Quick Start Guide: quickstart.md
 - Global Customization: customization.md
-- Header: customization-header.md
-- Underwear Style Customization: customization-underwear.md
-- Furniture Style Customization: customization-furniture.md
-- Flowers Style Customization: customization-flowers.md
-- Fashion Style Customization: customization-fashion.md
-- Shoes Style Customization: customization-shoes.md
-- Pets Style Customization: customization-pets.md
-- Cuisine, Wine, Bakery Style Customization: customization-wine.md
-- Footer: customization-footer.md
+- Home Page Sections Customization: customization-homepage.md
 - Update Guide: update.md
 - FAQs: faqs.md
 - Help & Support: support.md
