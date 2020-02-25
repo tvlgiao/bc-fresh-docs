@@ -35,6 +35,11 @@ To edit content of Sections, Open the link below on your web browser: [https://b
 
 To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Fashion Secions** => **Footer -- Information** And follow the instructions on the right of the screen.
 
+## ==> Footer -- Background
+![Fashion Footer Background Section](img/sections/f-bg.png)
+
+To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Fashion Secions** => **Footer -- Background** And follow the instructions on the right of the screen.
+
 ## Clothes Style Customization
 
 ## ==> Homepage -- Banner Collection
@@ -57,6 +62,11 @@ To edit content of Sections, Open the link below on your web browser: [https://b
 ![Clothes Footer Information Section](img/sections/c-f-i.png)
 
 To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Clothes Secions** => **Footer -- Information** And follow the instructions on the right of the screen.
+
+## ==> Footer -- Background
+![Clothes Footer Background Section](img/sections/f-bg.png)
+
+To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Clothes Secions** => **Footer -- Background** And follow the instructions on the right of the screen.
 
 ## Novels Style Customization
 
@@ -84,6 +94,11 @@ To edit content of Sections, Open the link below on your web browser: [https://b
 ![Novels Footer Instagram Section](img/sections/n-f-in.png)
 
 To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Novels Secions** => **Footer -- Instagram** And follow the instructions on the right of the screen.
+
+## ==> Footer -- Background
+![Novels Footer Background Section](img/sections/f-bg.png)
+
+To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Novels Secions** => **Footer -- Background** And follow the instructions on the right of the screen.
 
 ## Sounds Style Customization
 
@@ -123,6 +138,11 @@ To edit content of Sections, Open the link below on your web browser: [https://b
 ![Sounds Footer Instagram Section](img/sections/s-f-in.png)
 
 To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Sounds Secions** => **Footer -- Instagram** And follow the instructions on the right of the screen.
+
+## ==> Footer -- Background
+![Sounds Footer Background Section](img/sections/f-bg.png)
+
+To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Sounds Secions** => **Footer -- Background** And follow the instructions on the right of the screen.
 
 ## Sweets Style Customization
 
@@ -199,6 +219,11 @@ To edit content of Sections, Open the link below on your web browser: [https://b
 
 To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Sweets Secions** => **Footer -- Footer Information** And follow the instructions on the right of the screen.
 
+## ==> Footer -- Background
+![Sweets Footer Background Section](img/sections/f-bg.png)
+
+To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Sweets Secions** => **Footer -- Background** And follow the instructions on the right of the screen.
+
 ## Cakes Style Customization
 
 ## ==> Homepage -- Testimonial
@@ -245,6 +270,11 @@ To edit content of Sections, Open the link below on your web browser: [https://b
 ![Cakes Footer Brands Section](img/sections/ca-f-b.png)
 
 To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Cakes Secions** => **Footer -- Footer Brands** And follow the instructions on the right of the screen.
+
+## ==> Footer -- Background
+![Cakes Footer Background Section](img/sections/f-bg.png)
+
+To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Cakes Secions** => **Footer -- Background** And follow the instructions on the right of the screen.
 
 ## Toys Style Customization
 
@@ -297,6 +327,11 @@ To edit content of Sections, Open the link below on your web browser: [https://b
 
 To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Toys Secions** => **Sidebar -- Sidebar Products Deal** And follow the instructions on the right of the screen.
 
+## ==> Footer -- Background
+![Toys Footer Background Section](img/sections/f-bg.png)
+
+To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Toys Secions** => **Footer -- Background** And follow the instructions on the right of the screen.
+
 ## Strollers Style Customization
 
 ## ==> Header -- Header Contact
@@ -332,6 +367,11 @@ To edit content of Sections, Open the link below on your web browser: [https://b
 
 To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Strollers Secions** => **Footer Informartion** And follow the instructions on the right of the screen.
 
+## ==> Footer -- Background
+![Toys Strollers Background Section](img/sections/f-bg.png)
+
+To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh Strollers Secions** => **Footer -- Background** And follow the instructions on the right of the screen.
+
 ## BookStore Style Customization
 
 ## ==> Homepage -- Banner Full
@@ -362,3 +402,8 @@ To edit content of Sections, Open the link below on your web browser: [https://b
 ![BookStore Footer Instagram Section](img/sections/bo-f-in.png)
 
 To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh BookStore Secions** => **Footer -- Footer Instagram** And follow the instructions on the right of the screen.
+
+## ==> Footer -- Background
+![Toys BookStore Background Section](img/sections/f-bg.png)
+
+To edit content of Sections, Open the link below on your web browser: [https://bc-fresh-builder.papathemes.com/](https://bc-fresh-builder.papathemes.com/). **Go Fresh BookStore Secions** => **Footer -- Background** And follow the instructions on the right of the screen.
