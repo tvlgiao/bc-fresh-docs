@@ -2,14 +2,25 @@
 
 ## Change text of BUY button on the product page on mobile
 
-Add this custom code below into your **Storefront** > **Footer Scripts**:
+Go to **Storefront** > **Script Manager**, click **Create a Script**, choose:
+
+- **Location on page** = `Footer`
+- **Select pages where script will be added** = `Store Pages`
+- **Script type** = `Script`
+
+Enter the script below to Scripts contents:
 
 ```html
-<style>
-.productView-options-toggle { width: 110px; border-radius: 3px; }
-.productView-options-toggle .on { font-size: 0; }
-.productView-options-toggle .on:before { font-size: 12px; content: 'Customize'; }
-</style>
+<script>
+    (function() {
+        var style = document.createElement('style');
+        style.innerHTML = ''
+            + '.productView-options-toggle { width: 110px; border-radius: 3px; }'
+            + '.productView-options-toggle .on { font-size: 0; }'
+            + '.productView-options-toggle .on:before { font-size: 12px; content: "Customize"; }'
+        ;document.head.appendChild(style);
+    })();
+</script>
 ```
 
 Where `Customize` is an example text to change.
@@ -17,30 +28,51 @@ Where `Customize` is an example text to change.
 
 ## Display the product options on the product page on mobile
 
-To display the product options on the product page on mobile instead of having to click BUY button, add the code below into **Storefont** > **Footer Scripts**:
+To display the product options on the product page on mobile instead of having to click BUY button, go to **Storefront** > **Script Manager**, click **Create a Script**, choose:
+
+- **Location on page** = `Footer`
+- **Select pages where script will be added** = `Store Pages`
+- **Script type** = `Script`
+
+Enter the script below to Scripts contents:
 
 ```html
-<style>
-@media (max-width: 800px) {
-.productView-options-toggle { display: none }
-.productView-options-content { position: static; right: 0; opacity: 1; box-shadow: none; border-top: 1px solid #ddd}
-.productView-options-panel-body { position: static; padding-bottom: 0px; }
-.productView-options-panel-heading ~ .mobile-panel-close { display: none; }
-.productView-options-content .form-action { position: static; right: auto; }
-.productView-options-panel-heading { display: none }
-.productView-options { order: 6; }
-}
-</style>
+<script>
+    (function() {
+        var style = document.createElement('style');
+        style.innerHTML = ''
+            + '@media (max-width: 800px) {'
+            + '.productView-options-toggle { display: none }'
+            + '.productView-options-content { position: static; right: 0; opacity: 1; box-shadow: none; border-top: 1px solid #ddd}'
+            + '.productView-options-panel-body { position: static; padding-bottom: 0px; }'
+            + '.productView-options-panel-heading ~ .mobile-panel-close { display: none; }'
+            + '.productView-options-content .form-action { position: static; right: auto; }'
+            + '.productView-options-panel-heading { display: none }'
+            + '.productView-options { order: 6; }'
+            + '}'
+        ;document.head.appendChild(style);
+    })();
+</script>
 ```
 
 ## Hide the "Home" link on the main menu
 
-Add the custom code below into **Storefront** > **Footer Scripts**:
+Go to **Storefront** > **Script Manager**, click **Create a Script**, choose:
+
+- **Location on page** = `Footer`
+- **Select pages where script will be added** = `All Pages`
+- **Script type** = `Script`
+
+Enter the script below to Scripts contents:
 
 ```html
-<style>
-#navPages-main > .navPages-item:first-child { display: none }
-</style>
+<script>
+    (function() {
+        var style = document.createElement('style');
+        style.innerHTML = '#navPages-main > .navPages-item:first-child { display: none }';
+        ;document.head.appendChild(style);
+    })();
+</script>
 ```
 
 
@@ -85,7 +117,13 @@ Your script should look like this screenshot:
 
 ![add custom text on the orders page](img/add-custom-text-on-orders-page.png)
 
-Add the code below to **Storefront** > **Script Manager**:
+Go to **Storefront** > **Script Manager**, click **Create a Script**, choose:
+
+- **Location on page** = `Footer`
+- **Select pages where script will be added** = `Store Pages`
+- **Script type** = `Script`
+
+Enter the script below to Scripts contents:
 
 ```html
 <script>
@@ -102,7 +140,13 @@ Choose location = **Footer**.
 
 ## Collapse product description tab by default on product pages
 
-Add the code below to **Storefront** > **Script Manager** at Footer position:
+Go to **Storefront** > **Script Manager**, click **Create a Script**, choose:
+
+- **Location on page** = `Footer`
+- **Select pages where script will be added** = `Store Pages`
+- **Script type** = `Script`
+
+Enter the script below to Scripts contents:
 
 ```html
 <script>
@@ -117,28 +161,36 @@ Add the code below to **Storefront** > **Script Manager** at Footer position:
 
 ![responsive top banner](img/responsive-top-banner.png)
 
-Add the custom CSS below to **Storefront** > **Footer Scripts** or add to file `assets/scss/_chiara-custom.scss` if you prefer to edit theme files:
+Go to **Storefront** > **Script Manager**, click **Create a Script**, choose:
+
+- **Location on page** = `Footer`
+- **Select pages where script will be added** = `Store Pages`
+- **Script type** = `Script`
+
+Enter the script below to Scripts contents:
 
 ```html
-<style>
-.list-unstyled { display: block; list-style: none; margin: 0; padding: 0; }
-.font-size-larger { font-size: larger }
-
-@media (min-width: 801px) {
-    .flex-desktop { display: flex }
-    .flex-desktop > * { flex: 1 }
-    .display-inline-desktop { display: inline }
-    .ml-2-desktop { margin-left: 2rem }
-}
-
-@media (max-width: 550px) {
-    .hide-mobile { display: none }
-}
-
-@media (min-width: 551px) and (max-width: 800px) {
-    .hide-tablet { display: none }
-}
-</style>
+<script>
+    (function() {
+        var style = document.createElement('style');
+        style.innerHTML = ''
+            + '.list-unstyled { display: block; list-style: none; margin: 0; padding: 0; }'
+            + '.font-size-larger { font-size: larger }'
+            + '@media (min-width: 801px) {'
+                + '.flex-desktop { display: flex }'
+                + '.flex-desktop > * { flex: 1 }'
+                + '.display-inline-desktop { display: inline }'
+                + '.ml-2-desktop { margin-left: 2rem }'
+            + '}'
+            + '@media (max-width: 550px) {'
+                + '.hide-mobile { display: none }'
+            + '}'
+            + '@media (min-width: 551px) and (max-width: 800px) {'
+                + '.hide-tablet { display: none }'
+            + '}'
+        ;document.head.appendChild(style);
+    })();
+</script>
 ```
 
 
