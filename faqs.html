@@ -168,35 +168,67 @@
               
                 <h1 id="faqs">FAQs<a class="headerlink" href="#faqs" title="Permanent link">&para;</a></h1>
 <h2 id="change-text-of-buy-button-on-the-product-page-on-mobile">Change text of BUY button on the product page on mobile<a class="headerlink" href="#change-text-of-buy-button-on-the-product-page-on-mobile" title="Permanent link">&para;</a></h2>
-<p>Add this custom code below into your <strong>Storefront</strong> &gt; <strong>Footer Scripts</strong>:</p>
-<pre><code class="html">&lt;style&gt;
-.productView-options-toggle { width: 110px; border-radius: 3px; }
-.productView-options-toggle .on { font-size: 0; }
-.productView-options-toggle .on:before { font-size: 12px; content: 'Customize'; }
-&lt;/style&gt;
+<p>Go to <strong>Storefront</strong> &gt; <strong>Script Manager</strong>, click <strong>Create a Script</strong>, choose:</p>
+<ul>
+<li><strong>Location on page</strong> = <code>Footer</code></li>
+<li><strong>Select pages where script will be added</strong> = <code>Store Pages</code></li>
+<li><strong>Script type</strong> = <code>Script</code></li>
+</ul>
+<p>Enter the script below to Scripts contents:</p>
+<pre><code class="html">&lt;script&gt;
+    (function() {
+        var style = document.createElement('style');
+        style.innerHTML = ''
+            + '.productView-options-toggle { width: 110px; border-radius: 3px; }'
+            + '.productView-options-toggle .on { font-size: 0; }'
+            + '.productView-options-toggle .on:before { font-size: 12px; content: &quot;Customize&quot;; }'
+        ;document.head.appendChild(style);
+    })();
+&lt;/script&gt;
 </code></pre>
 
 <p>Where <code>Customize</code> is an example text to change.</p>
 <h2 id="display-the-product-options-on-the-product-page-on-mobile">Display the product options on the product page on mobile<a class="headerlink" href="#display-the-product-options-on-the-product-page-on-mobile" title="Permanent link">&para;</a></h2>
-<p>To display the product options on the product page on mobile instead of having to click BUY button, add the code below into <strong>Storefont</strong> &gt; <strong>Footer Scripts</strong>:</p>
-<pre><code class="html">&lt;style&gt;
-@media (max-width: 800px) {
-.productView-options-toggle { display: none }
-.productView-options-content { position: static; right: 0; opacity: 1; box-shadow: none; border-top: 1px solid #ddd}
-.productView-options-panel-body { position: static; padding-bottom: 0px; }
-.productView-options-panel-heading ~ .mobile-panel-close { display: none; }
-.productView-options-content .form-action { position: static; right: auto; }
-.productView-options-panel-heading { display: none }
-.productView-options { order: 6; }
-}
-&lt;/style&gt;
+<p>To display the product options on the product page on mobile instead of having to click BUY button, go to <strong>Storefront</strong> &gt; <strong>Script Manager</strong>, click <strong>Create a Script</strong>, choose:</p>
+<ul>
+<li><strong>Location on page</strong> = <code>Footer</code></li>
+<li><strong>Select pages where script will be added</strong> = <code>Store Pages</code></li>
+<li><strong>Script type</strong> = <code>Script</code></li>
+</ul>
+<p>Enter the script below to Scripts contents:</p>
+<pre><code class="html">&lt;script&gt;
+    (function() {
+        var style = document.createElement('style');
+        style.innerHTML = ''
+            + '@media (max-width: 800px) {'
+            + '.productView-options-toggle { display: none }'
+            + '.productView-options-content { position: static; right: 0; opacity: 1; box-shadow: none; border-top: 1px solid #ddd}'
+            + '.productView-options-panel-body { position: static; padding-bottom: 0px; }'
+            + '.productView-options-panel-heading ~ .mobile-panel-close { display: none; }'
+            + '.productView-options-content .form-action { position: static; right: auto; }'
+            + '.productView-options-panel-heading { display: none }'
+            + '.productView-options { order: 6; }'
+            + '}'
+        ;document.head.appendChild(style);
+    })();
+&lt;/script&gt;
 </code></pre>
 
 <h2 id="hide-the-home-link-on-the-main-menu">Hide the "Home" link on the main menu<a class="headerlink" href="#hide-the-home-link-on-the-main-menu" title="Permanent link">&para;</a></h2>
-<p>Add the custom code below into <strong>Storefront</strong> &gt; <strong>Footer Scripts</strong>:</p>
-<pre><code class="html">&lt;style&gt;
-#navPages-main &gt; .navPages-item:first-child { display: none }
-&lt;/style&gt;
+<p>Go to <strong>Storefront</strong> &gt; <strong>Script Manager</strong>, click <strong>Create a Script</strong>, choose:</p>
+<ul>
+<li><strong>Location on page</strong> = <code>Footer</code></li>
+<li><strong>Select pages where script will be added</strong> = <code>All Pages</code></li>
+<li><strong>Script type</strong> = <code>Script</code></li>
+</ul>
+<p>Enter the script below to Scripts contents:</p>
+<pre><code class="html">&lt;script&gt;
+    (function() {
+        var style = document.createElement('style');
+        style.innerHTML = '#navPages-main &gt; .navPages-item:first-child { display: none }';
+        ;document.head.appendChild(style);
+    })();
+&lt;/script&gt;
 </code></pre>
 
 <h2 id="fix-products-bought-together-stop-working-after-bigcommerce-api-changed">Fix Products Bought Together stop working after BigCommerce API changed<a class="headerlink" href="#fix-products-bought-together-stop-working-after-bigcommerce-api-changed" title="Permanent link">&para;</a></h2>
@@ -227,7 +259,13 @@ window.chiarajQuery(document).ajaxSend((event, xhr, settings) =&gt; {
 <p><img alt="Fix products also bought together" src="img/fix-products-bought-together-api-changed.png" /></p>
 <h2 id="add-custom-text-on-the-orders-page">Add custom text on the orders page<a class="headerlink" href="#add-custom-text-on-the-orders-page" title="Permanent link">&para;</a></h2>
 <p><img alt="add custom text on the orders page" src="img/add-custom-text-on-orders-page.png" /></p>
-<p>Add the code below to <strong>Storefront</strong> &gt; <strong>Script Manager</strong>:</p>
+<p>Go to <strong>Storefront</strong> &gt; <strong>Script Manager</strong>, click <strong>Create a Script</strong>, choose:</p>
+<ul>
+<li><strong>Location on page</strong> = <code>Footer</code></li>
+<li><strong>Select pages where script will be added</strong> = <code>Store Pages</code></li>
+<li><strong>Script type</strong> = <code>Script</code></li>
+</ul>
+<p>Enter the script below to Scripts contents:</p>
 <pre><code class="html">&lt;script&gt;
 (function($) {
     if ($('body').is('.page-type-account_orderstatus, .papaSupermarket-pageType--account-orderstatus')) {
@@ -239,7 +277,13 @@ window.chiarajQuery(document).ajaxSend((event, xhr, settings) =&gt; {
 
 <p>Choose location = <strong>Footer</strong>.</p>
 <h2 id="collapse-product-description-tab-by-default-on-product-pages">Collapse product description tab by default on product pages<a class="headerlink" href="#collapse-product-description-tab-by-default-on-product-pages" title="Permanent link">&para;</a></h2>
-<p>Add the code below to <strong>Storefront</strong> &gt; <strong>Script Manager</strong> at Footer position:</p>
+<p>Go to <strong>Storefront</strong> &gt; <strong>Script Manager</strong>, click <strong>Create a Script</strong>, choose:</p>
+<ul>
+<li><strong>Location on page</strong> = <code>Footer</code></li>
+<li><strong>Select pages where script will be added</strong> = <code>Store Pages</code></li>
+<li><strong>Script type</strong> = <code>Script</code></li>
+</ul>
+<p>Enter the script below to Scripts contents:</p>
 <pre><code class="html">&lt;script&gt;
 (function($) {
     $('.productView-tab--description.is-active, .productView-desc.is-active').removeClass('is-active');
@@ -249,26 +293,34 @@ window.chiarajQuery(document).ajaxSend((event, xhr, settings) =&gt; {
 
 <h2 id="make-responsive-top-banner">Make responsive top banner<a class="headerlink" href="#make-responsive-top-banner" title="Permanent link">&para;</a></h2>
 <p><img alt="responsive top banner" src="img/responsive-top-banner.png" /></p>
-<p>Add the custom CSS below to <strong>Storefront</strong> &gt; <strong>Footer Scripts</strong> or add to file <code>assets/scss/_chiara-custom.scss</code> if you prefer to edit theme files:</p>
-<pre><code class="html">&lt;style&gt;
-.list-unstyled { display: block; list-style: none; margin: 0; padding: 0; }
-.font-size-larger { font-size: larger }
-
-@media (min-width: 801px) {
-    .flex-desktop { display: flex }
-    .flex-desktop &gt; * { flex: 1 }
-    .display-inline-desktop { display: inline }
-    .ml-2-desktop { margin-left: 2rem }
-}
-
-@media (max-width: 550px) {
-    .hide-mobile { display: none }
-}
-
-@media (min-width: 551px) and (max-width: 800px) {
-    .hide-tablet { display: none }
-}
-&lt;/style&gt;
+<p>Go to <strong>Storefront</strong> &gt; <strong>Script Manager</strong>, click <strong>Create a Script</strong>, choose:</p>
+<ul>
+<li><strong>Location on page</strong> = <code>Footer</code></li>
+<li><strong>Select pages where script will be added</strong> = <code>Store Pages</code></li>
+<li><strong>Script type</strong> = <code>Script</code></li>
+</ul>
+<p>Enter the script below to Scripts contents:</p>
+<pre><code class="html">&lt;script&gt;
+    (function() {
+        var style = document.createElement('style');
+        style.innerHTML = ''
+            + '.list-unstyled { display: block; list-style: none; margin: 0; padding: 0; }'
+            + '.font-size-larger { font-size: larger }'
+            + '@media (min-width: 801px) {'
+                + '.flex-desktop { display: flex }'
+                + '.flex-desktop &gt; * { flex: 1 }'
+                + '.display-inline-desktop { display: inline }'
+                + '.ml-2-desktop { margin-left: 2rem }'
+            + '}'
+            + '@media (max-width: 550px) {'
+                + '.hide-mobile { display: none }'
+            + '}'
+            + '@media (min-width: 551px) and (max-width: 800px) {'
+                + '.hide-tablet { display: none }'
+            + '}'
+        ;document.head.appendChild(style);
+    })();
+&lt;/script&gt;
 </code></pre>
 
 <h3 id="banner-1">Banner 1<a class="headerlink" href="#banner-1" title="Permanent link">&para;</a></h3>
